@@ -1,0 +1,183 @@
+body{
+	font-family: open sans regular, sans-serif;
+	background-color: #ffffff;
+	margin:0px;
+	padding:0px; 
+}
+hr{
+	visibility: hidden;
+}
+.icon{
+    float: left;
+    padding-left: 20px;
+    padding-top: 5px;
+    position: absolute;
+    height: auto;
+    width: 90px;
+
+}
+header{
+	margin: 0%;
+	padding: 0%;
+	border-bottom:solid;
+	border-width: 3px;
+	border-color: #048eaa;
+}
+nav{
+	height: 80px;
+	background-color: #75e2e6;
+	padding:0px;
+	border-bottom: 3px;
+	border-color: #048eaa;
+	width: 100%;
+}
+li{
+	float: right;
+	list-style: none;
+	padding-top: 30px;
+	padding-right: 50px;
+	}
+.menu{
+	margin:0px;
+}
+
+h1{
+	text-align:center;
+	font-weight: 300;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	color: #ffffff;
+	font-size:35px;
+	margin:0px;
+}
+.some {
+	font-weight: 700;
+}	
+.name-dog{
+	display: block;
+	border:none;
+	background-color:#75e2e6;
+	font-weight: 600;
+	padding:15px 60px 15px 60px;
+	font-size: 17px;
+	margin: auto;
+	border-radius: 4px;
+	width: 400px;
+	font-family: open sans;
+
+}
+
+h2{
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 40px;
+	margin-top: -20px;
+}
+.park{
+	z-index: -1;
+	width: 100%;
+	background-image: url(images/park.jpg);
+	height: 500px;
+	padding-top: 0%;
+	background-size: 100%;
+}
+.round{
+	border-radius:50%;
+	margin: auto;
+	display: block;
+	max-width: 200px;
+	max-height: 200px;
+	border-color: #048eaa;
+	border-width: 4px;
+	border-style: solid;
+	}
+
+.name{
+	text-align:center;
+	border-style: none;
+	width:225px;
+	height: 45px;
+	margin-bottom: 20px;
+	border-radius:4px;
+	width: 400px;
+
+}
+#dog1{
+	display: block;
+	margin: auto;
+}
+
+label{
+	color:white;
+	display: block;
+	font-family: open sans;
+	font-size: 15px;
+	text-align: left;
+	margin-left: 38%;
+	margin-bottom: 20px;
+
+}
+form{
+	text-align: center;
+	padding-top: 20px;
+	display: block;
+
+}
+p{
+	width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.columns {
+	text-align:left;
+	width: 31.3333331%;
+	display: inline-block;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 20px;
+	}
+button{
+	padding: 20px;
+    min-width: 70%;
+    display: block;
+    margin: auto;
+    background-color: #048eaa;
+    border-style: none;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+}
+h3{
+	color:#ffffff;
+	text-align: center
+	padding-bottom:30px;
+}
+footer{
+	background-color: #048eaa;
+	text-align: center;
+	padding:30px;
+	max-height: 175px;
+}
+a{
+	text-decoration:none;
+}
+.social{
+	padding: 0px 8px 0px 8px;
+}
+*{
+  box-sizing: border-box;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.columns {
+	width: 75%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+	}
+
+
+}
+
